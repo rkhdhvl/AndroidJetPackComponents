@@ -3,8 +3,9 @@ package com.practice.androidjetpackcomponents.openapi.ui.auth
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.practice.androidjetpackcomponents.R
+import com.practice.androidjetpackcomponents.openapi.BaseActivity
 
-class AuthActivity : AppCompatActivity() {
+class AuthActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
